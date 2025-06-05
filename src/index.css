@@ -1,0 +1,104 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 218 39% 10%;         
+    --foreground: 210 40% 98%;         
+
+    --card: 222 24% 16%;             
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 24% 13%;          
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 174 62% 56%;           
+    --primary-foreground: 0 0% 100%;  
+
+    --secondary: 220 16% 22%;       
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 16% 24%;            
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 286 100% 67%;         
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 16% 22%;           
+    --input: 220 16% 22%;
+    --ring: 174 62% 56%;              
+
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-tech-gradient animate-gradient-x bg-300%;
+  }
+  
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+  
+  .neon-border {
+    @apply relative rounded-md;
+  }
+  
+  .neon-border::before {
+    content: '';
+    @apply absolute -inset-0.5 rounded-lg bg-tech-gradient opacity-75 blur-sm transition duration-300;
+    z-index: -1;
+  }
+  
+  .shine-effect {
+    @apply relative overflow-hidden;
+  }
+  
+  .shine-effect::after {
+    content: '';
+    @apply absolute top-0 left-[-100%] w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transform transition-all duration-1000 ease-out;
+    animation: shine 3s infinite;
+  }
+  
+  @keyframes shine {
+    100% {
+      left: 200%;
+    }
+  }
+  
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold mb-8 text-gradient;
+  }
+  
+  .animated-bg {
+    @apply relative;
+  }
+  
+  .animated-bg::before {
+    content: '';
+    @apply absolute inset-0 bg-tech-gradient opacity-10 animate-gradient-x bg-300% -z-10;
+  }
+}
+
+.bg-300\% {
+  background-size: 300% 300%;
+}
