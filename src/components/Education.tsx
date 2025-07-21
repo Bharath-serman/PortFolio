@@ -123,13 +123,6 @@ const Education: React.FC = () => {
                 <p className="text-sm text-muted-foreground">Limited Working Proficiency</p>
               </div>
             </AnimatedCard>
-            
-            <AnimatedCard delay={0.4} className="py-4 px-6 w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75rem)]">
-              <div className="text-center">
-                <h4 className="text-lg font-semibold mb-2">Hindi</h4>
-                <p className="text-sm text-muted-foreground">Limited Working Proficiency</p>
-              </div>
-            </AnimatedCard>
           </div>
         </motion.div>
       </div>
