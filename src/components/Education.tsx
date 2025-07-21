@@ -12,7 +12,7 @@ const Education: React.FC = () => {
       period: '09/2022 - Present',
       location: 'Chennai, India',
       description: 'Pursuing a Bachelor of Engineering in Computer Science with a focus on emerging technologies including AR/VR development, artificial intelligence, and software engineering.',
-      courses: ['Data Structures & Algorithms', 'Computer Graphics', 'Artificial Intelligence', 'Software Engineering', 'User Interface and Experience']
+      courses: ['Data Structures & Algorithms', 'Augmented Reality','Virtual Reality', 'Artificial Intelligence', 'User Interface and Experience']
     },
     {
       degree: 'Higher Secondary',

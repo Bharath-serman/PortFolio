@@ -99,7 +99,7 @@ const About: React.FC = () => {
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Interests</h4>
                   <p className="text-muted-foreground flex-grow">
-                    Reading books, Gaming, Watching Series, Making 3D models
+                    AI tools exploring, Gaming, Making 3D models
                   </p>
                 </div>
               </AnimatedCard>

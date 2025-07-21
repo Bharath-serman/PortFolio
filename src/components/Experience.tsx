@@ -110,12 +110,12 @@ const Experience: React.FC = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">NPTEL Certifications</h3>
+                    <h3 className="text-lg font-semibold mb-2">First Prize in Mini-Project competition</h3>
                     <p className="text-muted-foreground">
-                      Successfully completed multiple National Programme on Technology Enhanced Learning courses 
-                      with excellent scores, demonstrating mastery in technical subjects.
+                      Attained First prize in the department level Mini-project competition of our department for the project VR_Black
                     </p>
                   </div>
+                  
                 </div>
               </AnimatedCard>
               <AnimatedCard delay={0.2}>
@@ -142,10 +142,9 @@ const Experience: React.FC = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">Google Ads Certification</h3>
+                    <h3 className="text-lg font-semibold mb-2">Unity Learn - AR Face filter certification</h3>
                     <p className="text-muted-foreground">
-                      Earned Google Ads certification, demonstrating proficiency in digital marketing 
-                      and online advertising strategies.
+                      Earned Unity Learn certification, demonstrating proficiency in Augmented reality Face filter project.
                     </p>
                   </div>
                 </div>
@@ -158,10 +157,10 @@ const Experience: React.FC = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">Infosys Springboard Certifications</h3>
+                    <h3 className="text-lg font-semibold mb-2">NPTEL Certifications</h3>
                     <p className="text-muted-foreground">
-                      Completed Infosys Springboard certifications, gaining industry-relevant skills 
-                      and knowledge in emerging technologies.
+                      Successfully completed multiple National Programme on Technology Enhanced Learning courses 
+                      with excellent scores, demonstrating mastery in technical subjects.
                     </p>
                   </div>
                 </div>

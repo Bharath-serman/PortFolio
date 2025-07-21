@@ -21,6 +21,14 @@ const Projects: React.FC = () => {
       link: 'https://github.com/Bharath-serman/VR_BLACK_HOLE',
       tags: ['VR', 'Physics Simulation', 'Unity', '3D Modeling']
     },
+     {
+      title: 'AR Face Filter',
+      date: '09/2025',
+      description: 'A augmented reality face filters using unity software',
+      image: '/placeholder.svg',
+      link: 'https://github.com/Bharath-serman/AR_Face-Filter',
+      tags: ['AR', 'VR', 'Unity']
+    },
     {
       title: 'AI Assistant for Blender',
       date: '01/2025',
@@ -29,14 +37,7 @@ const Projects: React.FC = () => {
       link: 'https://github.com/Bharath-serman/Blender_Assistant',
       tags: ['AI', 'Blender', 'Python', 'Automation']
     },
-    {
-      title: 'AI Chatbot',
-      date: '09/2024',
-      description: 'An intelligent chatbot that uses natural language processing to provide helpful responses and assist users with various tasks.',
-      image: '/placeholder.svg',
-      link: 'https://github.com/Bharath-serman/SENSE_WEB-AI-Chatbot-',
-      tags: ['NLP', 'Machine Learning', 'Chatbot', 'Web App']
-    }
+   
   ];
 
   return (
