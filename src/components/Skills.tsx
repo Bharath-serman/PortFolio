@@ -5,6 +5,17 @@ import { motion } from 'framer-motion';
 const Skills: React.FC = () => {
   const skillCategories = [
     {
+<<<<<<< HEAD
+=======
+      title: 'Programming Languages',
+      skills: [
+        { name: 'Java', level: 60 },
+        { name: 'Python', level: 35 },
+       { name: 'JavaScript', level: 30 },
+      ]
+    },
+    {
+>>>>>>> 8f0ec68 (Updated_Version)
       title: '3D & AR/VR',
       skills: [
         { name: 'Unity', level: 40 },
@@ -16,17 +27,30 @@ const Skills: React.FC = () => {
     {
       title: 'Design',
       skills: [
+<<<<<<< HEAD
         { name: 'UI Design', level: 60 },
         { name: 'Figma', level: 65 },
         { name: '3D Modeling', level: 65 },
         { name: 'Framer', level: 60 },
+=======
+        { name: 'Framer', level: 50 },
+        { name: 'Figma', level: 65 },
+        { name: '3D Modeling', level: 65 },
+        { name: 'Video Editing', level: 40 },
+>>>>>>> 8f0ec68 (Updated_Version)
       ]
     },
     {
       title: 'Other Tech Skills',
       skills: [
+<<<<<<< HEAD
         { name: 'Automation', level: 35 },
         { name: 'Database', level: 30 },
+=======
+        { name: 'AI Integration', level: 40 },
+        { name: 'Git,Github', level: 45 },
+        { name: 'MongoDB', level: 40 },
+>>>>>>> 8f0ec68 (Updated_Version)
         { name: 'AI Tools Exploration', level: 85 },
       ]
     }
@@ -106,8 +130,13 @@ const Skills: React.FC = () => {
         >
           <div className="flex flex-wrap justify-center gap-4">
             {[
+<<<<<<< HEAD
               'Unity', 'Blender', 'AR/VR', '3D Models', 'Framer', 'Java', 
               'MongoDB', 'Video Editing', 'Figma', 'AI Tools'
+=======
+              'Unity', 'Blender', 'AR/VR', '3D Models','Java', 
+              'UI Design', 'Video Editing', 'AI Tools'
+>>>>>>> 8f0ec68 (Updated_Version)
             ].map((skill, index) => (
               <motion.div
                 key={skill}

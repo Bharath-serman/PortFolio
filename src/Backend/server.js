@@ -1,5 +1,5 @@
 const express = require('express');
-const nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer'); //for sending mails
 const cors = require('cors');
 
 const app = express();
@@ -12,16 +12,42 @@ app.post('/send-email', async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
+<<<<<<< HEAD
       user: '',            // Gmail
       pass: ''             //App Password for Mail
+=======
+      user: 'bharathserman@gmail.com',
+      pass: 'plfb oxab obch qcde' // Generate from Gmail App Password
+>>>>>>> 8f0ec68 (Updated_Version)
     }
   });
 
   const mailOptions = {
+<<<<<<< HEAD
     from: email,
     to: '',                   // Specify the end Mail
+=======
+    from: `"${name}" <${email}>`,
+    to: 'bharathserman@gmail.com', // your receiving email
+>>>>>>> 8f0ec68 (Updated_Version)
     subject,
-    text: `Name: ${name}\nEmail: ${email}\n\n${message}`
+    text: `Name: ${name}\nEmail: ${email}\n\n${message}`, // plain fallback
+    html: `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border-radius: 10px; border: 1px solid #ddd; background: #f9f9f9;">
+        <h2 style="color: #4CAF50; text-align: center;">📩 New Contact Form Message</h2>
+        
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        
+        <div style="margin-top: 20px; padding: 15px; background: #fff; border-left: 5px solid #4CAF50; border-radius: 5px;">
+          <p style="margin: 0; white-space: pre-line;">${message}</p>
+        </div>
+        
+        <p style="margin-top: 30px; text-align: center; font-size: 12px; color: #777;">
+          This message was sent from your portfolio contact form.
+        </p>
+      </div>
+    `
   };
 
   try {
