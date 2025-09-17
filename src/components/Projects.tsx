@@ -37,9 +37,6 @@ const Projects: React.FC = () => {
       link: 'https://github.com/Bharath-serman/Blender_Assistant',
       tags: ['AI', 'Blender', 'Python', 'Automation']
     },
-<<<<<<< HEAD
-   
-=======
     {
       title: 'AI Chatbot',
       date: '09/2024',
@@ -72,7 +69,6 @@ const Projects: React.FC = () => {
       link: 'https://heavy-platform-592488.framer.app/',
       tags: ['Framer', 'User Interface Design', 'Prototype']
     }
->>>>>>> 8f0ec68 (Updated_Version)
   ];
 
   return (
