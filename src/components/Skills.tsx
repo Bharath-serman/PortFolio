@@ -5,6 +5,14 @@ import { motion } from 'framer-motion';
 const Skills: React.FC = () => {
   const skillCategories = [
     {
+      title: 'Programming Languages',
+      skills: [
+        { name: 'Java', level: 60 },
+        { name: 'Python', level: 35 },
+       { name: 'JavaScript', level: 30 },
+      ]
+    },
+    {
       title: '3D & AR/VR',
       skills: [
         { name: 'Unity', level: 40 },
@@ -20,6 +28,10 @@ const Skills: React.FC = () => {
         { name: 'Figma', level: 65 },
         { name: '3D Modeling', level: 65 },
         { name: 'Framer', level: 60 },
+        { name: 'Framer', level: 50 },
+        { name: 'Figma', level: 65 },
+        { name: '3D Modeling', level: 65 },
+        { name: 'Video Editing', level: 40 },
       ]
     },
     {
@@ -27,6 +39,9 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Automation', level: 35 },
         { name: 'Database', level: 30 },
+        { name: 'AI Integration', level: 40 },
+        { name: 'Git,Github', level: 45 },
+        { name: 'MongoDB', level: 40 },
         { name: 'AI Tools Exploration', level: 85 },
       ]
     }

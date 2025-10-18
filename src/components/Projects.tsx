@@ -37,7 +37,38 @@ const Projects: React.FC = () => {
       link: 'https://github.com/Bharath-serman/Blender_Assistant',
       tags: ['AI', 'Blender', 'Python', 'Automation']
     },
-   
+    {
+      title: 'AI Chatbot',
+      date: '09/2024',
+      description: 'An intelligent chatbot that uses natural language processing to provide helpful responses and assist users with various tasks.',
+      image: '/placeholder.svg',
+      link: 'https://github.com/Bharath-serman/SENSE_WEB-AI-Chatbot-',
+      tags: ['NLP', 'Machine Learning', 'Chatbot', 'Web App']
+    },
+    {
+      title: 'AR Face-Filter',
+      date: '07/2025',
+      description: 'Built an augmented-reality face filter app that tracks a user’s face in real-time (using the front camera) and overlays a 3D sunglasses model. Developed entirely in Unity using Visual Scripting—no hand-written C#—to prototype and implement face tracking and filter application. Supports Android via ARCore',
+      image: '/placeholder.svg',
+      link: 'https://github.com/Bharath-serman/AR_Face-Filter',
+      tags: ['Unity', 'Augmented Reality', 'Visual Scripting']
+    },
+    {
+      title: 'AR Portal',
+      date: '06/2025',
+      description: 'Created an Augmented Reality portal experience using Unity and AR Foundation. Users can detect a horizontal surface via the mobile device’s camera, tap to place a portal, and look through a circular doorway to enter a virtual world. Real-time masking/stencil effects make the portal edges blend seamlessly for an immersive effect.',
+      image: '/placeholder.svg',
+      link: 'https://github.com/Bharath-serman/AR_Portal',
+      tags: ['Unity', 'Augmented Reality', 'Visual Scripting']
+    },
+    {
+      title: 'Framer-UI',
+      date: '05/2025',
+      description: 'Designed a clean and minimal user interface prototype in Framer for an AI dashboard concept. The UI presents model details (token limit, latency, throughput) in a structured layout, with profile information, search, and a model list section. The focus was on clarity, hierarchy, and accessibility, ensuring users can quickly scan and compare options.',
+      image: '/placeholder.svg',
+      link: 'https://heavy-platform-592488.framer.app/',
+      tags: ['Framer', 'User Interface Design', 'Prototype']
+    }
   ];
 
   return (
