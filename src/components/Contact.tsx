@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/" 
+                  href="https://github.com/Bharath-serman" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-tech-dark text-white hover:bg-tech-gradient transition-colors duration-300"

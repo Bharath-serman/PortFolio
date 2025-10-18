@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     if (!textRef.current) return;
     
-    const roles = ['VR/AR Developer', 'CS Undergraduate', '3D Modeller', 'UI Designer','AI Enthusiast'];
+    const roles = ['VR/AR Developer', 'CS Undergraduate', 'Unity Developer', 'UI Designer','AI Enthusiast'];
     let currentRole = 0;
     let currentText = '';
     let isDeleting = false;
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <a
-              href="https://github.com/"
+              href="https://github.com/Bharath-serman" //Github
               target="_blank"
               rel="noopener noreferrer"
               className="neon-border p-3 bg-tech-dark hover:bg-tech-blue-dark transition-colors duration-300"
@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
               <Github className="text-white" size={24} />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://linkedin.com/"  //LinkedIn
               target="_blank"
               rel="noopener noreferrer"
               className="neon-border p-3 bg-tech-dark hover:bg-tech-blue-dark transition-colors duration-300"
