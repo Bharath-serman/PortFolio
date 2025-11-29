@@ -46,17 +46,41 @@ const Index: React.FC = () => {
       <Education />
       <Contact />
       
-      <footer className="py-8 bg-black/50 backdrop-blur-sm">
-        <div className="container mx-auto px-4 md:px-6 text-center">
-          <p className="text-muted-foreground">
-            &copy; {new Date().getFullYear()} Bharath Serman R. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <footer className="py-10 bg-black/60 backdrop-blur-sm mt-16">
+  <div className="container mx-auto px-4 md:px-6 text-center space-y-6">
+
+    {/* Gradient Title */}
+   <p className="text-2xl font-semibold bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 bg-clip-text text-transparent">
+      Creating Experiences Beyond Reality
+    </p>
+
+    {/* Navigation Links */}
+    <div className="flex justify-center space-x-6 text-sm font-light text-muted-foreground">
+      <a href="#projects" className="hover:text-white transition">Projects</a>
+      <a href="#skills" className="hover:text-white transition">Skills</a>
+      <a href="#about" className="hover:text-white transition">About</a>
+      <a href="#contact" className="hover:text-white transition">Contact</a>
+    </div>
+
+    {/* Divider */}
+    <div className="w-20 mx-auto border-t border-gray-600"></div>
+
+    {/* Sub Quote */}
+    <p className="text-xs italic opacity-70">
+      “Imagine • Build • Evolve”
+    </p>
+
+<p className="text-2xl font-semibold bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 bg-clip-text text-transparent">
+  © {new Date().getFullYear()} Bharath Serman R. 
+</p>
+
+  </div>
+</footer>
+
       <motion.button
-        className={`fixed right-6 bottom-6 p-3 rounded-full bg-tech-gradient text-white z-40 transition-opacity ${
-          showScrollToTop ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
+       className={`fixed right-6 bottom-6 p-3 rounded-full bg-orange-500 text-white z-40 transition-opacity ${
+  showScrollToTop ? 'opacity-100' : 'opacity-0 pointer-events-none'
+}`}
         onClick={scrollToTop}
         initial={{ scale: 0 }}
         animate={{ scale: showScrollToTop ? 1 : 0 }}

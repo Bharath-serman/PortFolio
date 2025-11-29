@@ -66,8 +66,9 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <span className="text-white mr-2">I'm a</span>
-            <div className="text-tech-neon" ref={textRef}></div>
-            <span className="text-tech-neon animate-pulse">|</span>
+            <div className="text-orange-400" ref={textRef}></div>
+<span className="text-orange-400 animate-pulse">|</span>
+
           </motion.div>
           
           <motion.p
@@ -94,7 +95,7 @@ const Hero: React.FC = () => {
               <Github className="text-white" size={24} />
             </a>
             <a
-              href="https://linkedin.com/"  //LinkedIn
+              href="https://www.linkedin.com/in/bharath-serman-r-7999b8262/"  //LinkedIn
               target="_blank"
               rel="noopener noreferrer"
               className="neon-border p-3 bg-tech-dark hover:bg-tech-blue-dark transition-colors duration-300"
@@ -117,7 +118,7 @@ const Hero: React.FC = () => {
           >
             <a
               href="#projects"
-              className="py-3 px-8 bg-tech-gradient hover:opacity-90 rounded-full text-white font-medium inline-flex items-center transition-all duration-300 hover:shadow-glow"
+             className="py-3 px-8 bg-orange-400 hover:bg-orange-500 rounded-full text-white font-medium inline-flex items-center transition-all duration-300 hover:shadow-lg"
             >
               View My Work
             </a>

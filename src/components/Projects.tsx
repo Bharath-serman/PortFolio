@@ -22,12 +22,12 @@ const Projects: React.FC = () => {
       tags: ['VR', 'Physics Simulation', 'Unity', '3D Modeling']
     },
      {
-      title: 'AR Face Filter',
-      date: '09/2025',
-      description: 'A augmented reality face filters using unity software',
+      title: '3D-Portfolio',
+      date: '10/2025',
+      description: 'A Unity-made 3D portfolio where I demonstrate my game development skills through environment design and interactive UI.',
       image: '/placeholder.svg',
-      link: 'https://github.com/Bharath-serman/AR_Face-Filter',
-      tags: ['AR', 'VR', 'Unity']
+      link: 'https://github.com/Bharath-serman/Unity_Portfolio',
+      tags: ['3D', 'Portfolio', 'Unity']
     },
     {
       title: 'AI Assistant for Blender',

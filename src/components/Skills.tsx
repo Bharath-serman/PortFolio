@@ -7,42 +7,45 @@ const Skills: React.FC = () => {
     {
       title: 'Programming Languages',
       skills: [
-        { name: 'Java', level: 60 },
-        { name: 'Python', level: 35 },
-       { name: 'JavaScript', level: 30 },
+        { name: 'C#', level: 46 },
+        { name: 'Java', level: 30 },
       ]
     },
     {
       title: '3D & AR/VR',
       skills: [
         { name: 'Unity', level: 40 },
-        { name: 'Blender', level: 50 },
-        { name: 'AR Development', level: 50 },
+        { name: 'Blender', level: 30 },
+        { name: 'AR Development', level: 40 },
         { name: 'VR Development', level: 50 },
       ]
     },
     {
-      title: 'Design',
+      title: 'Design-Tools',
       skills: [
-        { name: 'UI Design', level: 60 },
-        { name: 'Figma', level: 65 },
-        { name: '3D Modeling', level: 65 },
-        { name: 'Framer', level: 60 },
-        { name: 'Framer', level: 50 },
-        { name: 'Figma', level: 65 },
-        { name: '3D Modeling', level: 65 },
-        { name: 'Video Editing', level: 40 },
+        { name: 'Figma', level: 45 },
+        { name: 'Framer', level: 40 },
+        { name: 'Visily', level: 60 },
+        { name: 'CapCut', level: 40 },
       ]
     },
     {
       title: 'Other Tech Skills',
       skills: [
-        { name: 'Automation', level: 35 },
-        { name: 'Database', level: 30 },
         { name: 'AI Integration', level: 40 },
         { name: 'Git,Github', level: 45 },
         { name: 'MongoDB', level: 40 },
-        { name: 'AI Tools Exploration', level: 85 },
+        { name: 'AI Tools Exploration', level: 65 },
+      ]
+    },
+     {
+      title: 'AI-Tools',
+      skills: [
+        { name: 'Bolt.dly', level: 40 },
+        { name: 'Cursor', level: 55 },
+        { name: 'Windsurf', level: 45 },
+        { name: 'Lovable', level: 55 },
+        { name: 'N8N', level: 25 },
       ]
     }
   ];
@@ -56,18 +59,18 @@ const Skills: React.FC = () => {
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <div className="flex justify-between mb-1">
-        <span className="text-white font-medium">{name}</span>
-        <span className="text-tech-neon">{level}%</span>
-      </div>
-      <div className="w-full h-2 bg-tech-blue-dark/50 rounded-full overflow-hidden">
-      <motion.div 
-  className="h-full bg-tech-gradient"
-  initial={{ width: 0 }}
-  animate={{ width: `${level}%` }}
-  transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.1 + 0.3 }}
-></motion.div>
+  <span className="text-white font-medium">{name}</span>
+  <span className="text-orange-400 font-medium">{level}%</span>
+</div>
+<div className="w-full h-2 bg-orange-400/80 rounded-full overflow-hidden">
+  <motion.div 
+    className="h-full bg-violet-500/90"
+    initial={{ width: 0 }}
+    animate={{ width: `${level}%` }}
+    transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.1 + 0.3 }}
+  ></motion.div>
+</div>
 
-      </div>
     </motion.div>
   );
 
@@ -121,12 +124,12 @@ const Skills: React.FC = () => {
         >
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              'Unity', 'Blender', 'AR/VR', '3D Models', 'Framer', 'Java', 
-              'MongoDB', 'Video Editing', 'Figma', 'AI Tools'
+              'Unity', 'Blender', 'AR/VR','Visily', 'Framer', 'C#', 
+              'MongoDB', 'Video CapCut', 'Figma', 'AI Tools'
             ].map((skill, index) => (
               <motion.div
                 key={skill}
-                className="px-6 py-3 rounded-full bg-tech-blue-dark text-white border border-tech-purple/30 hover:border-tech-neon transition-colors duration-300 cursor-default"
+                className="px-6 py-3 rounded-full bg-orange-500/20 text-white border border-orange-300/30 hover:border-orange-400/50 transition-colors duration-300 cursor-default"
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true, margin: '-100px' }}
@@ -138,7 +141,7 @@ const Skills: React.FC = () => {
                 }}
                 whileHover={{ 
                   scale: 1.10,
-                  boxShadow: '0 0 50px rgb(0, 255, 255)',
+                  boxShadow: '0 0 50px rgba(255, 102, 0, 1)',
                   transition: { duration: 0.2 }
                 }}
               >

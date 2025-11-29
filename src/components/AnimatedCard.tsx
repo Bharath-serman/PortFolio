@@ -42,7 +42,10 @@ const AnimatedCard: React.FC<AnimatedCardProps> = ({ className = '', children, d
         />
       </div>
     </motion.div>
+
+    
   );
 };
+
 
 export default AnimatedCard;

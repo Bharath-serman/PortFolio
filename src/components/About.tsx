@@ -27,12 +27,12 @@ const About: React.FC = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="relative">
-              <div className="absolute inset-0 bg-tech-gradient blur-md rounded-2xl transform rotate-3"></div>
+              <div className="absolute inset-0 bg-orange-500/20 blur-md rounded-2xl transform rotate-3"></div>
               <div className="relative rounded-2xl overflow-hidden border-4 border-tech-dark">
                 <div className="absolute inset-0 bg-tech-gradient animate-gradient-x opacity-20"></div>
                 <div className="aspect-[9/5] w-full bg-tech-dark flex justify-center items-center">
                   <div className="text-6xl font-bold bg-clip-text text-transparent bg-tech-gradient animate-gradient-x">
-                    <img src='public\my img.jpeg'></img>
+                    <img src='/my img.jpeg'></img>
                   </div>
                 </div>
               </div>
@@ -49,8 +49,8 @@ const About: React.FC = () => {
                 Bharath serman R
               </h3>
               <p className="text-muted-foreground mb-6">
-                I'm an enthusiastic Computer Science undergraduate with a passion for AR/VR development, 
-                3D modeling, and creating immersive digital experiences. My goal is to innovate and solve 
+                I'm an enthusiastic Computer Science undergraduate with a passion for AR/VR development and 
+                3D Game development. My goal is to innovate and solve 
                 real-world problems through cutting-edge technology.
               </p>
             </motion.div>
@@ -75,7 +75,7 @@ const About: React.FC = () => {
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Experience</h4>
                   <p className="text-muted-foreground flex-grow">
-                    Internship at Chennai Metro Rail Limited
+                    Internship at Chennai Metro Rail Limited (IT Engineer) and VRARRI (XR Tester)
                   </p>
                 </div>
               </AnimatedCard>
@@ -87,7 +87,7 @@ const About: React.FC = () => {
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Languages</h4>
                   <p className="text-muted-foreground flex-grow">
-                    Tamil, English, Japanese (Limited), Hindi (Limited)
+                    Tamil, English, Japanese (Basic), Hindi (Basic)
                   </p>
                 </div>
               </AnimatedCard>
@@ -97,9 +97,9 @@ const About: React.FC = () => {
                   <div className="mb-3 text-tech-neon">
                     <Heart size={24} />
                   </div>
-                  <h4 className="text-xl font-semibold mb-2">Interests</h4>
+                  <h4 className="text-xl font-semibold mb-2">Hobbies</h4>
                   <p className="text-muted-foreground flex-grow">
-                    AI tools exploring, Gaming, Making 3D models
+                    AI tools exploring, Gaming, Reading Books
                   </p>
                 </div>
               </AnimatedCard>
@@ -114,7 +114,7 @@ const About: React.FC = () => {
             >
               <a
                 href="#contact"
-                className="py-3 px-8 bg-tech-gradient hover:opacity-90 rounded-full text-white font-medium transition-all duration-300 hover:shadow-glow"
+                className="py-3 px-8 bg-orange-400 hover:bg-orange-500 rounded-full text-white font-medium inline-flex items-center transition-all duration-300 hover:shadow-lg"
               >
                 Contact Me
               </a>

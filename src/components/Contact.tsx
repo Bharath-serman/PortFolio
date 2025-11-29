@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/Bharath-serman" 
+                  href="https://github.com/Bharath-serman" //Github
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-tech-dark text-white hover:bg-tech-gradient transition-colors duration-300"
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
                   <Github size={20} />
                 </a>
                 <a 
-                  href="https://linkedin.com/" 
+                  href="https://www.linkedin.com/in/bharath-serman-r-7999b8262/"  //LinkedIn
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 rounded-full bg-tech-dark text-white hover:bg-tech-gradient transition-colors duration-300"
@@ -212,7 +212,8 @@ const Contact: React.FC = () => {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full py-3 px-6 bg-tech-gradient hover:opacity-90 rounded-lg text-white font-medium inline-flex items-center justify-center transition-all duration-300 disabled:opacity-70"
+                      className="w-full py-3 px-6 bg-orange-400 hover:bg-orange-500 rounded-lg text-white font-medium inline-flex items-center justify-center transition-all duration-300 disabled:opacity-70"
+
                     >
                       {isSubmitting ? (
                         <span className="inline-flex items-center">

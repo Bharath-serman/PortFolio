@@ -88,6 +88,74 @@ const Experience: React.FC = () => {
                 </span>
               </div>
             </div>
+
+<br></br>
+         <div className="absolute -left-0 top-6 w-6 h-6 rounded-full bg-tech-gradient flex items-center justify-center">
+              <div className="w-3 h-3 rounded-full bg-tech-dark"></div>
+            </div>
+            
+            <div className="pl-6 border-l-2 border-tech-purple/30">
+              <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                <h3 className="text-xl font-bold text-white">Intern</h3>
+                <div className="flex items-center text-tech-neon text-sm mt-2 md:mt-0">
+                  <Calendar size={14} className="mr-1" />
+                  <span>September 2025 - Ongoing</span>
+                </div>
+              </div>
+              
+              <div className="mb-4">
+                <div className="flex items-center mb-2">
+                  <Briefcase size={16} className="mr-2 text-tech-neon" />
+                  <h4 className="text-lg font-semibold">VRARRI</h4>
+                </div>
+                <div className="flex items-center text-muted-foreground">
+                  <MapPin size={16} className="mr-2 shrink-0" />
+                  <p>Chennai, India</p>
+                </div>
+              </div>
+              
+              <p className="text-muted-foreground mb-6">
+                VRARRI is an AR/VR company that builds immersive training and simulation solutions for industries like automotive, healthcare, and manufacturing. They focus on improving real-world training through realistic, device-agnostic VR experiences that enhance safety, speed, and learning efficiency.
+              </p>
+              
+              <div>
+                <h5 className="text-lg font-semibold mb-3 flex items-center">
+                  <Award size={18} className="mr-2 text-tech-neon" />
+                  Key Achievements
+                </h5>
+                <ul className="list-disc list-inside text-muted-foreground space-y-2 pl-5">
+                  <li>
+                   Quickly adapted to the company’s workflow and project environment.
+                  </li>
+                  <li>
+                   Learned the XR testing process in a short time and started contributing actively.
+                  </li>
+                  <li>
+                    Assisted in testing VR/AR modules to ensure smooth user interactions and performance.
+                  </li>
+                  <li>
+                   Gained hands-on experience with industry-standard XR tools and testing methods.
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="mt-6 flex flex-wrap gap-2">
+                <span className="px-3 py-1 text-xs rounded-full bg-tech-blue-dark text-white">
+                  XR Testing
+                </span>
+                <span className="px-3 py-1 text-xs rounded-full bg-tech-blue-dark text-white">
+                  Bug Findings
+                </span>
+                <span className="px-3 py-1 text-xs rounded-full bg-tech-blue-dark text-white">
+                  Collaboration
+                </span>
+                <span className="px-3 py-1 text-xs rounded-full bg-tech-blue-dark text-white">
+                  Constant Learning
+                </span>
+              </div>
+            </div>
+
+
           </AnimatedCard>
           <div className="mt-20">
             <motion.div
@@ -126,10 +194,10 @@ const Experience: React.FC = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">Paper Presentation</h3>
+                    <h3 className="text-lg font-semibold mb-2">Duolingo</h3>
                     <p className="text-muted-foreground">
-                      Presented research papers at academic conferences, showcasing innovative ideas 
-                      and solutions in the field of computer science.
+                      Maintained a 600+ day Duolingo streak in Japanese, demonstrating consistency, 
+                      discipline, and strong motivation for continuous learning.
                     </p>
                   </div>
                 </div>
@@ -167,9 +235,12 @@ const Experience: React.FC = () => {
               </AnimatedCard>
             </div>
           </div>
+          
         </div>
+        
       </div>
     </section>
+    
   );
 };
 

@@ -1,63 +1,112 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
 @layer base {
   :root {
-    --background: 218 39% 10%;         
-    --foreground: 210 40% 98%;         
+    --background: 0 45% 6%;        
+    --foreground: 30 100% 98%;         
 
-    --card: 222 24% 16%;             
-    --card-foreground: 210 40% 98%;
+    --card: 5 40% 12%;             
+    --card-foreground: 30 100% 98%;
 
-    --popover: 220 24% 13%;          
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 50% 10%;          
+    --popover-foreground: 30 100% 98%;
 
-    --primary: 174 62% 56%;           
+    --primary: 4 90% 58%;           
     --primary-foreground: 0 0% 100%;  
 
-    --secondary: 220 16% 22%;       
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 10 35% 20%;       
+    --secondary-foreground: 30 100% 98%;
 
-    --muted: 215 16% 24%;            
-    --muted-foreground: 215 20% 65%;
+    --muted: 15 30% 24%;            
+    --muted-foreground: 30 40% 72%;
 
-    --accent: 286 100% 67%;         
+    --accent: 25 95% 55%;         
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 16% 22%;           
-    --input: 220 16% 22%;
-    --ring: 174 62% 56%;              
+    --border: 10 35% 20%;           
+    --input: 10 35% 20%;
+    --ring: 4 90% 58%;              
 
     --radius: 0.75rem;
+
+    --sidebar-background: 0 45% 6%;
+    --sidebar-foreground: 30 100% 98%;
+    --sidebar-primary:  0 45% 6%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 10 35% 20%;
+    --sidebar-accent-foreground: 30 100% 98%;
+    --sidebar-border: 10 35% 20%;
+    --sidebar-ring: 4 90% 58%;
   }
 
+  .dark {
+    --background: 0 45% 6%;
+    --foreground: 30 100% 98%;
+
+    --card: 5 40% 12%;
+    --card-foreground: 30 100% 98%;
+
+    --popover: 0 50% 10%;
+    --popover-foreground: 30 100% 98%;
+
+    --primary: 4 90% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 10 35% 20%;
+    --secondary-foreground: 30 100% 98%;
+
+    --muted: 15 30% 24%;
+    --muted-foreground: 30 40% 72%;
+
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 10 35% 20%;
+    --input: 10 35% 20%;
+    --ring: 4 90% 58%;
+    
+    --sidebar-background: 0 45% 6%;
+    --sidebar-foreground: 30 100% 98%;
+    --sidebar-primary: 4 90% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 10 35% 20%;
+    --sidebar-accent-foreground: 30 100% 98%;
+    --sidebar-border: 10 35% 20%;
+    --sidebar-ring: 4 90% 58%;
+  }
+}
+
+@layer base {
   * {
     @apply border-border;
   }
 
-  html {
-    @apply scroll-smooth;
-  }
-
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
 
 @layer components {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-tech-gradient animate-gradient-x bg-300%;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary animate-gradient-x bg-300%;
   }
   
   .glass-card {
-    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
-  }
+    @apply bg-orange-500/20 backdrop-blur-md border border-orange-300/30 shadow-lg;
+}
+
   
   .neon-border {
     @apply relative rounded-md;
@@ -65,7 +114,7 @@
   
   .neon-border::before {
     content: '';
-    @apply absolute -inset-0.5 rounded-lg bg-tech-gradient opacity-75 blur-sm transition duration-300;
+    @apply absolute -inset-0.5 rounded-lg bg-gradient-to-r from-primary to-accent opacity-75 blur-sm transition duration-300;
     z-index: -1;
   }
   
@@ -95,10 +144,23 @@
   
   .animated-bg::before {
     content: '';
-    @apply absolute inset-0 bg-tech-gradient opacity-10 animate-gradient-x bg-300% -z-10;
+    @apply absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 animate-gradient-x bg-300% -z-10;
+  }
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
   }
 }
 
 .bg-300\% {
   background-size: 300% 300%;
+}
+
+.animate-gradient-x {
+  animation: gradient-x 15s ease infinite;
 }

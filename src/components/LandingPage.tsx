@@ -23,7 +23,7 @@ const LandingPage: React.FC<{ onContinue: () => void }> = ({ onContinue }) => {
       <p className="mb-8 text-lg text-shadow">Exploring AR/VR | 3D Modeling | UI/UX</p>
       <button
         onClick={onContinue}
-        className="bg-tech-gradient text-white px-6 py-3 rounded-full hover:opacity-80 transition"
+        className="py-3 px-8 bg-orange-400 hover:bg-orange-500 rounded-full text-white font-medium inline-flex items-center transition-all duration-300 hover:shadow-lg"
       >
         Enter Portfolio
       </button>
