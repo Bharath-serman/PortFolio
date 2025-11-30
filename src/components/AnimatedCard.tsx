@@ -27,8 +27,8 @@ const AnimatedCard: React.FC<AnimatedCardProps> = ({ className = '', children, d
       }}
     >
       <div className="relative glass-card h-full">
-        <div 
-          className={`absolute inset-0 bg-tech-gradient rounded-xl opacity-0 transition-opacity duration-300 blur-sm -z-10 ${
+       <div 
+          className={`absolute inset-0 bg-orange-600/30 rounded-xl opacity-0 transition-opacity duration-300 blur-sm -z-10 ${
             isHovered ? 'opacity-50' : ''
           }`}
         />

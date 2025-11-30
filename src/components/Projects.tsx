@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import AnimatedCard from './AnimatedCard';
 import { ExternalLink, Calendar } from 'lucide-react';
+import { link } from 'fs';
 
 const Projects: React.FC = () => {
   const projects = [
@@ -11,6 +12,7 @@ const Projects: React.FC = () => {
       date: '06/2024',
       description: 'Developed a travel planner for CMRL that displays fare, distance, and platform details using an API, with an interactive Leaflet map highlighting the travel route.',
       image: '/placeholder.svg',
+      link: 'https://travelplanner.chennaimetrorail.org/',
       tags: ['API', 'Interactive Map', 'Transit', 'UI Design']
     },
     {
@@ -38,12 +40,12 @@ const Projects: React.FC = () => {
       tags: ['AI', 'Blender', 'Python', 'Automation']
     },
     {
-      title: 'AI Chatbot',
-      date: '09/2024',
-      description: 'An intelligent chatbot that uses natural language processing to provide helpful responses and assist users with various tasks.',
+      title: 'Die_With_Me',
+      date: '11/2025',
+      description: 'A Mini 3D Game done in unity engine as part of my learning process.',
       image: '/placeholder.svg',
-      link: 'https://github.com/Bharath-serman/SENSE_WEB-AI-Chatbot-',
-      tags: ['NLP', 'Machine Learning', 'Chatbot', 'Web App']
+      link: 'https://github.com/Bharath-serman/Die_With_Me',
+      tags: ['Unity', '3D', 'Game Development']
     },
     {
       title: 'AR Face-Filter',
