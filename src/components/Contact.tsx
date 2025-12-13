@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-heading">Contact Me</h2>
-          <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Feel free to get in touch with me for collaboration, opportunities, or just to say hello!
           </p>
@@ -113,34 +113,44 @@ const Contact: React.FC = () => {
             <div className="mt-12">
               <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
-                <a 
-                  href="https://github.com/Bharath-serman" //Github
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-full bg-tech-dark text-white hover:bg-tech-gradient transition-colors duration-300"
-                  aria-label="GitHub"
-                >
-                  <Github size={20} />
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/bharath-serman-r-7999b8262/"  //LinkedIn
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-full bg-tech-dark text-white hover:bg-tech-gradient transition-colors duration-300"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin size={20} />
-                </a>
-                <a 
-                  href="https://duolingo.com/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-full bg-tech-dark text-white hover:bg-tech-gradient transition-colors duration-300"
-                  aria-label="Duolingo"
-                >
-                  <ExternalLink size={20} />
-                </a>
-              </div>
+              <a 
+                href="https://github.com/Bharath-serman"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-tech-dark text-white 
+                          hover:bg-orange-500 hover:shadow-[0_0_25px_rgba(255,102,0,0.9)]
+                          transition-all duration-300"
+                aria-label="GitHub"
+              >
+                <Github size={20} />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/bharath-serman-r-7999b8262/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-tech-dark text-white 
+                          hover:bg-orange-500 hover:shadow-[0_0_25px_rgba(255,102,0,0.9)]
+                          transition-all duration-300"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={20} />
+              </a>
+              <a 
+                href="https://www.duolingo.com/profile/TA_SPIDEY"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-tech-dark text-white 
+                          hover:bg-orange-500 hover:shadow-[0_0_25px_rgba(255,102,0,0.9)]
+                          transition-all duration-300"
+                aria-label="Duolingo"
+              >
+                <img
+                  src="/icons/Duolingoicon.png"
+                  alt="Duolingo"
+                  className="w-5 h-5"
+                /> 
+              </a>
+            </div>
             </div>
           </motion.div>
           <motion.div 

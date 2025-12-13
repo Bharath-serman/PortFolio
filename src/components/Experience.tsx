@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-heading">Work Experience</h2>
-          <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
         </motion.div>
 
         <div className="max-w-3xl mx-auto">
@@ -166,7 +166,7 @@ const Experience: React.FC = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="section-heading">Achievements</h2>
-              <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+              <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
             </motion.div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

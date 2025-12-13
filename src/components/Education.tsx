@@ -35,7 +35,7 @@ const Education: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-heading">Education</h2>
-          <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
         </motion.div>
 
         <div className="max-w-3xl mx-auto">
@@ -120,7 +120,7 @@ const Education: React.FC = () => {
             <AnimatedCard delay={0.3} className="py-4 px-6 w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75rem)]">
               <div className="text-center">
                 <h4 className="text-lg font-semibold mb-2">Japanese</h4>
-                <p className="text-sm text-muted-foreground">Basic Proficiency</p>
+                <p className="text-sm text-muted-foreground">Learning</p>
               </div>
             </AnimatedCard>
           </div>

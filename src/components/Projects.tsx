@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-heading">My Projects</h2>
-          <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Here are some of my recent projects that showcase my skills in AR/VR development, 
             programming, and creative problem-solving.

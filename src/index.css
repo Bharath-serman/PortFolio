@@ -99,6 +99,27 @@ All colors MUST be HSL.
 }
 
 @layer components {
+
+.social-icon {
+    @apply p-3 rounded-full bg-tech-dark text-white 
+           transition-all duration-300;
+  }
+
+  .social-icon:hover {
+    background-color: hsl(25 95% 55%); /* ORANGE */
+    box-shadow: 0 0 25px hsl(25 95% 55% / 0.9);
+    transform: translateY(-2px);
+  }
+
+  /* Force SVG icons inside to glow */
+  .social-icon:hover svg {
+    filter: drop-shadow(0 0 12px hsl(25 95% 55%));
+  }
+
+  .social-icon:hover img {
+    filter: drop-shadow(0 0 12px hsl(25 95% 55%));
+  }
+
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary animate-gradient-x bg-300%;
   }

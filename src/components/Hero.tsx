@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     if (!textRef.current) return;
     
-    const roles = ['VR/AR Developer', 'CS Undergraduate', 'Unity Developer', 'UI Designer','AI Enthusiast'];
+    const roles = ['CS Student', 'Unity Developer', 'UI Designer','AI Enthusiast'];
     let currentRole = 0;
     let currentText = '';
     let isDeleting = false;

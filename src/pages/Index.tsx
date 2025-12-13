@@ -51,7 +51,7 @@ const Index: React.FC = () => {
 
     {/* Gradient Title */}
    <p className="text-2xl font-semibold bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 bg-clip-text text-transparent">
-      Creating Experiences Beyond Reality
+      Dreams, designed in code.
     </p>
 
     {/* Navigation Links */}
@@ -71,7 +71,7 @@ const Index: React.FC = () => {
     </p>
 
 <p className="text-2xl font-semibold bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400 bg-clip-text text-transparent">
-  © {new Date().getFullYear()} Bharath Serman R. 
+  © {new Date().getFullYear()} Bharath serman R. 
 </p>
 
   </div>

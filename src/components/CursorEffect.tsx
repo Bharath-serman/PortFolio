@@ -67,11 +67,11 @@ const CursorEffect = () => {
   return (
     <>
       <div
-        className={`${cursorClasses} w-6 h-6 bg-transparent border-2 border-tech-purple rounded-full -ml-3 -mt-3`}
+        className={`${cursorClasses} w-6 h-6 bg-transparent border-2 border-orange-500 rounded-full -ml-3 -mt-3`}
         style={ringStyle}
       />
       <div
-        className={`${cursorClasses} w-1 h-1 bg-tech-neon rounded-full -ml-0.5 -mt-0.5`}
+        className={`${cursorClasses} w-1 h-1 bg-orange-500 rounded-full -ml-0.5 -mt-0.5`}
         style={dotStyle}
       />
     </>

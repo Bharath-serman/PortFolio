@@ -5,37 +5,29 @@ import { motion } from 'framer-motion';
 const Skills: React.FC = () => {
   const skillCategories = [
     {
-      title: 'Programming Languages',
+      title: 'Game Development Tools',
       skills: [
         { name: 'C#', level: 46 },
-        { name: 'Java', level: 30 },
-      ]
-    },
-    {
-      title: '3D & AR/VR',
-      skills: [
         { name: 'Unity', level: 40 },
         { name: 'Blender', level: 30 },
-        { name: 'AR Development', level: 40 },
-        { name: 'VR Development', level: 50 },
+        { name: 'Github', level: 30 },
+        { name: 'Renpy (Started Recently)', level: 10 },
       ]
     },
     {
       title: 'Design-Tools',
       skills: [
-        { name: 'Figma', level: 45 },
+        { name: 'Figma', level: 35 },
         { name: 'Framer', level: 40 },
-        { name: 'Visily', level: 60 },
-        { name: 'CapCut', level: 40 },
+        { name: 'Visily', level: 50 },
+        { name: 'Krita', level: 30 },
       ]
     },
     {
       title: 'Other Tech Skills',
       skills: [
-        { name: 'AI Integration', level: 40 },
-        { name: 'Git,Github', level: 45 },
-        { name: 'MongoDB', level: 40 },
-        { name: 'AI Tools Exploration', level: 65 },
+        { name: 'MongoDB', level: 20 },
+        { name: 'AI Tools Exploration', level: 55 },
       ]
     },
      {
@@ -85,10 +77,10 @@ const Skills: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-heading">My Skills</h2>
-          <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            I've developed a diverse skill set across various technologies, focusing on AR/VR development,
-            3D modeling, and programming.
+            I've developed a diverse skill set across various technologies, focusing on Game development,
+            UI Designing, and programming.
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

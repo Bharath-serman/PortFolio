@@ -16,7 +16,7 @@ const About: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-heading">About Me</h2>
-          <div className="w-20 h-1 bg-tech-gradient mx-auto rounded-full mb-6"></div>
+          <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -87,7 +87,7 @@ const About: React.FC = () => {
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Languages</h4>
                   <p className="text-muted-foreground flex-grow">
-                    Tamil, English, Japanese (Basic), Hindi (Basic)
+                    Tamil, English, Japanese (Learning), Hindi (Basic)
                   </p>
                 </div>
               </AnimatedCard>
