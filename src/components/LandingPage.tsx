@@ -20,7 +20,7 @@ const LandingPage: React.FC<{ onContinue: () => void }> = ({ onContinue }) => {
     <div className="min-h-screen flex flex-col justify-center items-center text-white relative overflow-hidden bg-black">
       <div className="comet-shower absolute top-0 left-0  w-full h-full z-0 pointer-events-none" />
       <h1 className="text-5xl font-bold mb-4 text-shadow">Welcome to My Portfolio</h1>
-      <p className="mb-8 text-lg text-shadow">Exploring AR/VR | 3D Modeling | UI/UX</p>
+      <p className="mb-8 text-lg text-shadow">Exploring Unity Engine | Game Development | User Interface Design</p>
       <button
         onClick={onContinue}
         className="py-3 px-8 bg-orange-400 hover:bg-orange-500 rounded-full text-white font-medium inline-flex items-center transition-all duration-300 hover:shadow-lg"
