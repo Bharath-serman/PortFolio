@@ -64,6 +64,14 @@ const Projects: React.FC = () => {
       tags: ['Unity', 'Augmented Reality', 'Visual Scripting']
     },
     {
+      title: 'Cassiora',
+      date: '08/2025',
+      description: 'A Placement preparation site done completely using AI. With this, we can able to prepare for any interviews or college placements, some of the features include Notepad, Streaks, Mock Interviews with AI and more.',
+      image: '/placeholder.svg',
+      link: 'https://github.com/Bharath-serman/Cassiora',
+      tags: ['AI', 'Web Development', 'Placements']
+    },
+    {
       title: 'Framer-UI',
       date: '05/2025',
       description: 'Designed a clean and minimal user interface prototype in Framer for an AI dashboard concept. The UI presents model details (token limit, latency, throughput) in a structured layout, with profile information, search, and a model list section. The focus was on clarity, hierarchy, and accessibility, ensuring users can quickly scan and compare options.',
