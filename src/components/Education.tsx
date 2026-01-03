@@ -23,7 +23,6 @@ const Education: React.FC = () => {
       courses: ['Mathematics', 'Computer Science', 'Physics', 'Chemistry', 'English']
     }
   ];
-  
   return (
     <section id="education" className="py-20 relative">
       <div className="container mx-auto px-4 md:px-6">
@@ -53,15 +52,16 @@ const Education: React.FC = () => {
               <div className="pl-6 border-l-2 border-tech-purple/30">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                   <h3 className="text-xl font-bold text-white">{entry.degree}</h3>
-                  <div className="flex items-center text-tech-neon text-sm mt-2 md:mt-0">
-                    <Calendar size={14} className="mr-1" />
+                  {/* Color of the Claendar */}
+                  <div className="flex items-center text-white-500 text-sm mt-2 md:mt-0">
+                    <Calendar size={14} className="mr-1" /> 
                     <span>{entry.period}</span>
                   </div>
                 </div>
                 
                 <div className="mb-4">
                   <div className="flex items-center mb-2">
-                    <GraduationCap size={16} className="mr-2 text-tech-neon" />
+                    <GraduationCap size={16} className="mr-2 text-red-500" />
                     <h4 className="text-lg font-semibold">{entry.institution}</h4>
                   </div>
                   <div className="flex items-center text-muted-foreground">
@@ -74,7 +74,7 @@ const Education: React.FC = () => {
                 
                 <div>
                   <h5 className="text-lg font-semibold mb-3 flex items-center">
-                    <BookOpen size={18} className="mr-2 text-tech-neon" />
+                    <BookOpen size={18} className="mr-2 text-red-500" />
                     Key Courses
                   </h5>
                   <div className="flex flex-wrap gap-2">

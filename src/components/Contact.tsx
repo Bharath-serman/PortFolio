@@ -71,14 +71,14 @@ const Contact: React.FC = () => {
             
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="mr-4 p-3 rounded-full bg-tech-dark text-tech-neon">
+                <div className="mr-4 p-3 rounded-full bg-tech-dark text-white-500">
                   <Mail size={20} />
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold mb-1">Email</h4>
+                  <h4 className="text-lg font-semibold mb-1">Email</h4> 
                   <a 
-                    href="mailto:bhar22005.cd@rmkec.ac.in" 
-                    className="text-muted-foreground hover:text-white transition-colors"
+                    href="mailto:bharathserman@gmail.com" //Email ID
+                    className="text-muted-foreground hover:text-white transition-colors"  
                   >
                     bharathserman@gmail.com
                   </a>
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="mr-4 p-3 rounded-full bg-tech-dark text-tech-neon">
+                <div className="mr-4 p-3 rounded-full bg-tech-dark text-white-500">
                   <Phone size={20} />
                 </div>
                 <div>
@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="mr-4 p-3 rounded-full bg-tech-dark text-tech-neon">
+                <div className="mr-4 p-3 rounded-full bg-tech-dark text-white-500">
                   <MapPin size={20} />
                 </div>
                 <div>

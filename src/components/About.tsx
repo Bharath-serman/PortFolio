@@ -49,7 +49,7 @@ const About: React.FC = () => {
                 Bharath serman R
               </h3>
               <p className="text-muted-foreground mb-6">
-                I'm an enthusiastic Computer Science undergraduate with a passion for AR/VR development and 
+                I'm an enthusiastic Computer Science undergraduate with a passion for
                 3D Game development. My goal is to innovate and solve 
                 real-world problems through cutting-edge technology.
               </p>
@@ -58,7 +58,7 @@ const About: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <AnimatedCard className="h-full" delay={0.1}>
                 <div className="flex flex-col h-full">
-                  <div className="mb-3 text-tech-neon">
+                  <div className="mb-3 text-red-500">
                     <GraduationCap size={24} />
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Education</h4>
@@ -70,7 +70,7 @@ const About: React.FC = () => {
 
               <AnimatedCard className="h-full" delay={0.2}>
                 <div className="flex flex-col h-full">
-                  <div className="mb-3 text-tech-neon">
+                  <div className="mb-3 text-red-500">
                     <Briefcase size={24} />
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Experience</h4>
@@ -82,7 +82,7 @@ const About: React.FC = () => {
 
               <AnimatedCard className="h-full" delay={0.3}>
                 <div className="flex flex-col h-full">
-                  <div className="mb-3 text-tech-neon">
+                  <div className="mb-3 text-red-500">
                     <Languages size={24} />
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Languages</h4>
@@ -94,7 +94,7 @@ const About: React.FC = () => {
 
               <AnimatedCard className="h-full" delay={0.4}>
                 <div className="flex flex-col h-full">
-                  <div className="mb-3 text-tech-neon">
+                  <div className="mb-3 text-red-500">
                     <Heart size={24} />
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Hobbies</h4>

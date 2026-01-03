@@ -28,7 +28,7 @@ const Experience: React.FC = () => {
             <div className="pl-6 border-l-2 border-tech-purple/30">
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-white">Intern</h3>
-                <div className="flex items-center text-tech-neon text-sm mt-2 md:mt-0">
+                <div className="flex items-center text-white-500 text-sm mt-2 md:mt-0">
                   <Calendar size={14} className="mr-1" />
                   <span>June 2024 - July 2024</span>
                 </div>
@@ -36,7 +36,7 @@ const Experience: React.FC = () => {
               
               <div className="mb-4">
                 <div className="flex items-center mb-2">
-                  <Briefcase size={16} className="mr-2 text-tech-neon" />
+                  <Briefcase size={16} className="mr-2 text-red-500" />
                   <h4 className="text-lg font-semibold">Chennai Metro Rail Limited</h4>
                 </div>
                 <div className="flex items-center text-muted-foreground">
@@ -53,7 +53,7 @@ const Experience: React.FC = () => {
               
               <div>
                 <h5 className="text-lg font-semibold mb-3 flex items-center">
-                  <Award size={18} className="mr-2 text-tech-neon" />
+                  <Award size={18} className="mr-2 text-red-500" />
                   Key Achievements
                 </h5>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 pl-5">
@@ -97,7 +97,7 @@ const Experience: React.FC = () => {
             <div className="pl-6 border-l-2 border-tech-purple/30">
               <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-white">Intern</h3>
-                <div className="flex items-center text-tech-neon text-sm mt-2 md:mt-0">
+                <div className="flex items-center text-white-500 text-sm mt-2 md:mt-0">
                   <Calendar size={14} className="mr-1" />
                   <span>September 2025 - Ongoing</span>
                 </div>
@@ -105,7 +105,7 @@ const Experience: React.FC = () => {
               
               <div className="mb-4">
                 <div className="flex items-center mb-2">
-                  <Briefcase size={16} className="mr-2 text-tech-neon" />
+                  <Briefcase size={16} className="mr-2 text-red-500" />
                   <h4 className="text-lg font-semibold">VRARRI</h4>
                 </div>
                 <div className="flex items-center text-muted-foreground">
@@ -120,7 +120,7 @@ const Experience: React.FC = () => {
               
               <div>
                 <h5 className="text-lg font-semibold mb-3 flex items-center">
-                  <Award size={18} className="mr-2 text-tech-neon" />
+                  <Award size={18} className="mr-2 text-red-500" />
                   Key Achievements
                 </h5>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 pl-5">
@@ -173,7 +173,7 @@ const Experience: React.FC = () => {
               <AnimatedCard delay={0.1}>
                 <div className="flex items-start">
                   <div className="mr-4">
-                    <div className="p-2 rounded-full bg-tech-blue-dark text-tech-neon">
+                    <div className="p-2 rounded-full bg-tech-blue-dark text-red-500">
                       <Award size={24} />
                     </div>
                   </div>
@@ -189,7 +189,7 @@ const Experience: React.FC = () => {
               <AnimatedCard delay={0.2}>
                 <div className="flex items-start">
                   <div className="mr-4">
-                    <div className="p-2 rounded-full bg-tech-blue-dark text-tech-neon">
+                    <div className="p-2 rounded-full bg-tech-blue-dark text-red-500">
                       <Award size={24} />
                     </div>
                   </div>
@@ -205,7 +205,7 @@ const Experience: React.FC = () => {
               <AnimatedCard delay={0.3}>
                 <div className="flex items-start">
                   <div className="mr-4">
-                    <div className="p-2 rounded-full bg-tech-blue-dark text-tech-neon">
+                    <div className="p-2 rounded-full bg-tech-blue-dark text-red-500">
                       <Award size={24} />
                     </div>
                   </div>
@@ -220,7 +220,7 @@ const Experience: React.FC = () => {
               <AnimatedCard delay={0.4}>
                 <div className="flex items-start">
                   <div className="mr-4">
-                    <div className="p-2 rounded-full bg-tech-blue-dark text-tech-neon">
+                    <div className="p-2 rounded-full bg-tech-blue-dark text-red-500">
                       <Award size={24} />
                     </div>
                   </div>

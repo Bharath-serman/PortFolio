@@ -104,7 +104,7 @@ const Hero: React.FC = () => {
               <Linkedin className="text-white" size={24} />
             </a>
             <a
-              href="mailto:bhar22005.cd@rmkec.ac.in"
+              href="mailto:bharathserman@gmail.com"  //Email ID
               className="neon-border p-3 bg-tech-dark hover:bg-tech-blue-dark transition-colors duration-300"
               aria-label="Email Contact"
             >

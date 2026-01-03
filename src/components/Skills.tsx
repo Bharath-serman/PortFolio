@@ -7,64 +7,45 @@ const Skills: React.FC = () => {
     {
       title: 'Game Development Tools',
       skills: [
-        { name: 'C#', level: 46 },
-        { name: 'Unity', level: 40 },
-        { name: 'Blender', level: 30 },
-        { name: 'Github', level: 30 },
-        { name: 'Renpy (Started Recently)', level: 10 },
+        { name: 'C# for coding' },
+        { name: 'Unity Engine for development' },
+        { name: 'Github and Plastic SCM for version control' },
+        { name: 'Renpy (Started Recently)' },
       ]
     },
     {
       title: 'Design-Tools',
       skills: [
-        { name: 'Figma', level: 35 },
-        { name: 'Framer', level: 40 },
-        { name: 'Visily', level: 50 },
-        { name: 'Krita', level: 30 },
-      ]
-    },
-    {
-      title: 'Other Tech Skills',
-      skills: [
-        { name: 'MongoDB', level: 20 },
-        { name: 'AI Tools Exploration', level: 55 },
+        { name: 'Figma' },
+        { name: 'Framer' },
+        { name: 'Visily' },
+        { name: 'Krita' },
       ]
     },
      {
       title: 'AI-Tools',
       skills: [
-        { name: 'Bolt.dly', level: 40 },
-        { name: 'Cursor', level: 55 },
-        { name: 'Windsurf', level: 45 },
-        { name: 'Lovable', level: 55 },
-        { name: 'N8N', level: 25 },
+        { name: 'Bolt.dly' },
+        { name: 'Cursor' },
+        { name: 'Windsurf' },
+        { name: 'Lovable' },
+        { name: 'N8N'},
       ]
     }
   ];
 
-  const SkillBar = ({ name, level, index }: { name: string; level: number; index: number }) => (
-    <motion.div 
-      className="mb-4"
-      initial={{ opacity: 0, x: -50 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true, margin: '-100px' }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-    >
-      <div className="flex justify-between mb-1">
-  <span className="text-white font-medium">{name}</span>
-  <span className="text-orange-400 font-medium">{level}%</span>
-</div>
-<div className="w-full h-2 bg-orange-400/80 rounded-full overflow-hidden">
-  <motion.div 
-    className="h-full bg-violet-500/90"
-    initial={{ width: 0 }}
-    animate={{ width: `${level}%` }}
-    transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.1 + 0.3 }}
-  ></motion.div>
-</div>
-
-    </motion.div>
-  );
+const SkillBar = ({ name, index }: { name: string; index: number }) => (
+  <motion.div
+    className="inline-block mr-3 mb-3 px-4 py-2 rounded-lg bg-orange-500/15 text-white border border-orange-400/30"
+    initial={{ opacity: 0, scale: 0.9 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.3, delay: index * 0.05 }}
+    whileHover={{ scale: 1.08 }}
+  >
+    {name}
+  </motion.div>
+);
 
   return (
     <section id="skills" className="py-20 relative">
@@ -99,7 +80,7 @@ const Skills: React.FC = () => {
                   <SkillBar 
                     key={skill.name} 
                     name={skill.name} 
-                    level={skill.level} 
+                    //level={skill.level} 
                     index={index} 
                   />
                 ))}
@@ -117,7 +98,7 @@ const Skills: React.FC = () => {
           <div className="flex flex-wrap justify-center gap-4">
             {[
               'Unity', 'Blender', 'AR/VR','Visily', 'Framer', 'C#', 
-              'MongoDB', 'Video CapCut', 'Figma', 'AI Tools'
+              'MongoDB', 'Figma', 'AI Tools'
             ].map((skill, index) => (
               <motion.div
                 key={skill}

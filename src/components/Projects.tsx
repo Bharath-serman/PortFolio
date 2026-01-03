@@ -137,7 +137,7 @@ const Projects: React.FC = () => {
                 </div>
                 <a 
                   href={project.link} 
-                  className="mt-auto inline-flex items-center text-tech-neon hover:underline"
+                  className="mt-auto inline-flex items-center text-white-500 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
