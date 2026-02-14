@@ -72,15 +72,22 @@ const Projects: React.FC = () => {
       tags: ['AI', 'Web Development', 'Placements']
     },
     {
-      title: 'Framer-UI',
+      title: 'Archangel',
       date: '05/2025',
       description: 'Designed a clean and minimal user interface prototype in Framer for an AI dashboard concept. The UI presents model details (token limit, latency, throughput) in a structured layout, with profile information, search, and a model list section. The focus was on clarity, hierarchy, and accessibility, ensuring users can quickly scan and compare options.',
       image: '/placeholder.svg',
       link: 'https://heavy-platform-592488.framer.app/',
       tags: ['Framer', 'User Interface Design', 'Prototype']
+    },
+    {
+      title: 'The Green Void',
+      date: '11/2025',
+      description: '(ONGOING) The Green Void is a small 3D narrative-driven horror game currently in development using Unity 2022.3.41 LTS.The project focuses on atmosphere, psychological tension, and minimal storytelling rather than combat-heavy mechanics.',
+      image: '/placeholder.svg',
+      link: 'https://github.com/Bharath-serman/The_Green_Void',
+      tags: ['3D', 'Horror Game', 'Unity 3D']
     }
   ];
-
   return (
     <section id="projects" className="py-20 relative">
       <div className="container mx-auto px-4 md:px-6">
@@ -94,7 +101,7 @@ const Projects: React.FC = () => {
           <h2 className="section-heading">My Projects</h2>
           <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills in AR/VR development, 
+            Here are some of my recent projects that showcase my skills in Game development, 
             programming, and creative problem-solving.
           </p>
         </motion.div>

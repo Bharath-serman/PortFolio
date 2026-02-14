@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
           <h2 className="section-heading">Contact Me</h2>
           <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Feel free to get in touch with me for collaboration, opportunities, or just to say hello!
+            Feel free to connect with me for collaboration, opportunities, or just to say hello!
           </p>
         </motion.div>
 
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-bold mb-6 text-gradient">Get In Touch</h3>
+            <h3 className="text-2xl font-bold mb-6 text-gradient">Connect With Me!</h3>
             
             <div className="space-y-6">
               <div className="flex items-start">
@@ -171,8 +171,8 @@ const Contact: React.FC = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-tech-neon text-white"
-                      placeholder="Your Name"
+                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-bg-orange text-white"
+                      placeholder="Your Name..."
                     />
                   </div>
                   
@@ -185,8 +185,8 @@ const Contact: React.FC = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-tech-neon text-white"
-                      placeholder="Your Email"
+                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-bg-orange text-white"
+                      placeholder="Your Email..."
                     />
                   </div>
                   
@@ -199,8 +199,8 @@ const Contact: React.FC = () => {
                       value={formData.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-tech-neon text-white"
-                      placeholder="Subject"
+                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-bg-orange text-white"
+                      placeholder="Subject..."
                     />
                   </div>
                   
@@ -213,8 +213,8 @@ const Contact: React.FC = () => {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-tech-neon text-white resize-none"
-                      placeholder="Your Message"
+                      className="w-full px-4 py-3 bg-tech-blue-dark/50 border border-tech-purple/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-bg-orange text-white resize-none"
+                      placeholder="Your Message..."
                     ></textarea>
                   </div>
                   
@@ -235,7 +235,7 @@ const Contact: React.FC = () => {
                         </span>
                       ) : (
                         <span className="inline-flex items-center">
-                          Send Message
+                          Share
                           <Send size={16} className="ml-2" />
                         </span>
                       )}

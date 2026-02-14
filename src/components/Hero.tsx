@@ -13,7 +13,8 @@ const Hero: React.FC = () => {
     let currentText = '';
     let isDeleting = false;
     let typeSpeed = 100;
-    
+    //const arrowsize = 45;
+
     const type = () => {
       const role = roles[currentRole];
       
@@ -127,13 +128,13 @@ const Hero: React.FC = () => {
       </div>
       <motion.a
         href="#about"
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce"
+        className="absolute bottom-1 left-1/1 transform -translate-x-1/2 text-white animate-bounce"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 1.2 }}
         aria-label="Scroll down"
       >
-        <ArrowDown size={32} />
+        <ArrowDown size={45} />
       </motion.a>
     </section>
   );
