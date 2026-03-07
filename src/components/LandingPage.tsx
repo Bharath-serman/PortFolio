@@ -45,12 +45,12 @@ const LandingPage: React.FC<{ onContinue: () => void }> = ({ onContinue }) => {
       position: absolute;
       width: 4px;
       height: 200px;
-      background: linear-gradient(to bottom, rgba(0, 255, 255, 1), rgba(0, 255, 255, 0));
+      background: linear-gradient(to bottom, rgba(251, 146, 60, 0.9), rgba(0, 255, 255, 0));
       box-shadow: 
-        0 0 30px rgba(0, 255, 255, 0.9),
-        0 0 60px rgba(0, 255, 255, 0.7),
+        0 0 30px rgba(255, 0, 157, 0.9),  
+        0 0 60px rgba(255, 0, 170, 0.7), 
         0 0 100px rgba(0, 255, 255, 0.5);
-      border-radius: 50px;
+      border-radius: 1px;
       transform: rotate(135deg);
       animation-name: cometRain;
       animation-timing-function: linear;

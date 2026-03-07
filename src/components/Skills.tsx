@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
         { name: 'C# for coding' },
         { name: 'Unity Engine for development' },
         { name: 'Github and Plastic SCM for version control' },
-        { name: 'Renpy (Started Recently)' },
+        //{ name: 'Renpy (Started Recently)' },
       ]
     },
     {
@@ -29,7 +29,7 @@ const Skills: React.FC = () => {
         { name: 'Cursor' },
         { name: 'Windsurf' },
         { name: 'Lovable' },
-        { name: 'N8N'},
+        { name: 'Antigravity'},
       ]
     }
   ];
@@ -97,7 +97,7 @@ const SkillBar = ({ name, index }: { name: string; index: number }) => (
         >
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              'Unity', 'Blender', 'AR/VR','Visily', 'Framer', 'C#', 
+              'Unity', 'Blender','Visily', 'Framer', 'C#', 
               'MongoDB', 'Figma', 'AI Tools'
             ].map((skill, index) => (
               <motion.div

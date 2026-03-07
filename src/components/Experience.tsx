@@ -165,10 +165,10 @@ const Experience: React.FC = () => {
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.6 }}
             >
+              {/*This is the Achievements Section*/}
               <h2 className="section-heading">Achievements</h2>
               <div className="w-20 h-1 bg-red-500 mx-auto rounded-full mb-6"></div>
             </motion.div>
-            
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <AnimatedCard delay={0.1}>
                 <div className="flex items-start">
@@ -196,7 +196,7 @@ const Experience: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">Duolingo</h3>
                     <p className="text-muted-foreground">
-                      Maintained a 600+ day Duolingo streak in Japanese, demonstrating consistency, 
+                      Maintained a 700+ day Duolingo streak in Japanese, demonstrating consistency, 
                       discipline, and strong motivation for continuous learning.
                     </p>
                   </div>

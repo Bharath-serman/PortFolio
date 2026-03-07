@@ -75,7 +75,8 @@ const About: React.FC = () => {
                   </div>
                   <h4 className="text-xl font-semibold mb-2">Experience</h4>
                   <p className="text-muted-foreground flex-grow">
-                    Internship at Chennai Metro Rail Limited (IT Engineer) and VRARRI (XR Tester)
+                    Internship at Chennai Metro Rail Limited (IT Engineer) and Currently working as an 
+                    XR Tester at VRARRI.
                   </p>
                 </div>
               </AnimatedCard>

@@ -114,7 +114,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
               <div className="flex space-x-4">
               <a 
-                href="https://github.com/Bharath-serman"
+                href="https://github.com/Bharath-serman"  //Github link.
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-tech-dark text-white 
@@ -125,7 +125,7 @@ const Contact: React.FC = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="https://www.linkedin.com/in/bharath-serman-r-7999b8262/"
+                href="https://www.linkedin.com/in/bharath-serman-r-7999b8262/"  //LinkedIn Profile link.
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-tech-dark text-white 
@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://www.duolingo.com/profile/TA_SPIDEY"
+                href="https://www.duolingo.com/profile/Bharathserman"  //Duoling profile link.
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-tech-dark text-white 
@@ -145,7 +145,7 @@ const Contact: React.FC = () => {
                 aria-label="Duolingo"
               >
                 <img
-                  src="/icons/Duolingoicon.png"
+                  src="/icons/Duolingoicon.png"  //Duolingo Owl Icon.
                   alt="Duolingo"
                   className="w-5 h-5"
                 /> 
